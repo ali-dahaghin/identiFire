@@ -1,11 +1,12 @@
-package com.alidahaghin.identifire.models.formatElements;
+package com.alidahaghin.identifire.models.formatElements.candidatesFormatElements;
 
 import com.alidahaghin.identifire.models.FormatElement;
+import com.alidahaghin.identifire.models.formatElements.CandidatesFormatElement;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class IntegerOrUpperOrLowerCaseFormatElements implements FormatElement {
+public class IntegerOrUpperOrLowerCaseFormatElements implements CandidatesFormatElement {
     @Override
     public List<String> getCandidates() {
         char[] alphabet = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();

@@ -1,6 +1,6 @@
 package com.alidahaghin.identifire.models;
 
-public interface Storage {
+public interface IdFireRepository {
 
     void add(String t);
 

@@ -1,11 +1,12 @@
-package com.alidahaghin.identifire.models.formatElements;
+package com.alidahaghin.identifire.models.formatElements.candidatesFormatElements;
 
 import com.alidahaghin.identifire.models.FormatElement;
+import com.alidahaghin.identifire.models.formatElements.CandidatesFormatElement;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class StringFormatElement implements FormatElement {
+public class StringFormatElement implements CandidatesFormatElement {
 
     private List<String> strings;
 
