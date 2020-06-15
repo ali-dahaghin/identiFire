@@ -1,6 +1,15 @@
 # identiFire
 Id Generator toolkit- an Object oriented way for generate ids.
 
+### dependency
+```
+<dependency>
+    <groupId>com.alidahaghin</groupId>
+    <artifactId>identifire</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
 ## simple usage
 ```java
 List<FormatElement> formatElements = new ArrayList<FormatElement>();
