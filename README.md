@@ -6,9 +6,11 @@ Id Generator toolkit- an Object oriented way for generate ids.
 List<FormatElement> formatElements = new ArrayList<FormatElement>();
 formatElements.add(new UpperCaseFormatElement());
 formatElements.add(new LowerCaseFormatElement());
-formatElements.add(new IntegerFormatElement());formatElements.add(new IntegerFormatElement());
+formatElements.add(new IntegerFormatElement());
+formatElements.add(new IntegerFormatElement());
 formatElements.add(new ParameterFormatElement("firstKey"));
 formatElements.add(new IntegerFormatElement());
+
 IdFire idFire = new FormattedIdFire(new SetStorage(), formatElements);
 
 Options options = Options.getEmpty();
